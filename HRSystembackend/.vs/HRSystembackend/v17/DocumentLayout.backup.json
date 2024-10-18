@@ -1,0 +1,349 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\hrsystembackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:hrsystembackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\controllers\\attendancesummariescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:controllers\\attendancesummariescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\controllers\\shiftscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:controllers\\shiftscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\controllers\\salariescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:controllers\\salariescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\controllers\\designationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:controllers\\designationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\data\\hrsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:data\\hrsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\models\\attendancesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:models\\attendancesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\models\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:models\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\models\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:models\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\hrsystem\\hrsystembackend\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4331EB-59B6-4DAB-ADED-554CCBB92A72}|HRSystembackend.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HRSystembackend.http",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\HRSystembackend.http",
+              "RelativeDocumentMoniker": "HRSystembackend.http",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\HRSystembackend.http",
+              "RelativeToolTip": "HRSystembackend.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-17T11:45:55.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttendanceSummariesController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\AttendanceSummariesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceSummariesController.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\AttendanceSummariesController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceSummariesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:46:30.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttendancesController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\AttendancesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendancesController.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\AttendancesController.cs",
+              "RelativeToolTip": "Controllers\\AttendancesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:46:05.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShiftsController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\ShiftsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShiftsController.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\ShiftsController.cs",
+              "RelativeToolTip": "Controllers\\ShiftsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:45:38.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalariesController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\SalariesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalariesController.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\SalariesController.cs",
+              "RelativeToolTip": "Controllers\\SalariesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:44:37.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:44:08.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DesignationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\DesignationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DesignationsController.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\DesignationsController.cs",
+              "RelativeToolTip": "Controllers\\DesignationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:43:43.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:43:16.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:42:48.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:30:25.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-17T08:28:50.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HRSystemContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Data\\HRSystemContext.cs",
+              "RelativeDocumentMoniker": "Data\\HRSystemContext.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Data\\HRSystemContext.cs",
+              "RelativeToolTip": "Data\\HRSystemContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:25:59.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AttendanceSummary.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\AttendanceSummary.cs",
+              "RelativeDocumentMoniker": "Models\\AttendanceSummary.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\AttendanceSummary.cs",
+              "RelativeToolTip": "Models\\AttendanceSummary.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:24:15.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "Models\\Attendance.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Attendance.cs",
+              "RelativeToolTip": "Models\\Attendance.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA+wBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:23:29.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Salary.cs",
+              "RelativeDocumentMoniker": "Models\\Salary.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Salary.cs",
+              "RelativeToolTip": "Models\\Salary.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:21:46.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Designation.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Designation.cs",
+              "RelativeDocumentMoniker": "Models\\Designation.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Designation.cs",
+              "RelativeToolTip": "Models\\Designation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:20:49.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Shift.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Shift.cs",
+              "RelativeDocumentMoniker": "Models\\Shift.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Shift.cs",
+              "RelativeToolTip": "Models\\Shift.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:20:11.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:19:31.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:18:37.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Models\\Company.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\HRSystem\\HRSystembackend\\Models\\Company.cs",
+              "RelativeToolTip": "Models\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:17:48.583Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

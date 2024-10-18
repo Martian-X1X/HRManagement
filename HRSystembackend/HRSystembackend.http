@@ -1,0 +1,6 @@
+@HRSystembackend_HostAddress = http://localhost:5009
+
+GET {{HRSystembackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
