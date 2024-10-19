@@ -24,24 +24,18 @@ namespace HRSystembackend.Migrations
 
             modelBuilder.Entity("HRSystemBackend.Models.Attendance", b =>
                 {
-                    b.Property<int>("AttendanceID")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("ComID")
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("AttendanceID"));
-
-                    b.Property<string>("AttStatus")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("ComID")
+                    b.Property<int>("EmpID")
                         .HasColumnType("integer");
 
                     b.Property<DateTime>("DtDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int>("EmpID")
-                        .HasColumnType("integer");
+                    b.Property<string>("AttStatus")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<TimeSpan>("InTime")
                         .HasColumnType("interval");
@@ -49,9 +43,7 @@ namespace HRSystembackend.Migrations
                     b.Property<TimeSpan>("OutTime")
                         .HasColumnType("interval");
 
-                    b.HasKey("AttendanceID");
-
-                    b.HasIndex("ComID");
+                    b.HasKey("ComID", "EmpID", "DtDate");
 
                     b.HasIndex("EmpID");
 
@@ -73,9 +65,6 @@ namespace HRSystembackend.Migrations
                         .HasColumnType("integer");
 
                     b.Property<int>("Absent")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("SummaryID")
                         .HasColumnType("integer");
 
                     b.HasKey("ComID", "EmpID", "DtYear", "DtMonth");
@@ -172,10 +161,19 @@ namespace HRSystembackend.Migrations
                     b.Property<int>("ComID")
                         .HasColumnType("integer");
 
+                    b.Property<int>("CompanyComID")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("DepartmentDeptID")
+                        .HasColumnType("integer");
+
                     b.Property<int>("DeptID")
                         .HasColumnType("integer");
 
                     b.Property<int>("DesigID")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("DesignationDesigID")
                         .HasColumnType("integer");
 
                     b.Property<DateTime>("DtJoin")
@@ -183,15 +181,18 @@ namespace HRSystembackend.Migrations
 
                     b.Property<string>("EmpCode")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.Property<string>("EmpName")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
 
                     b.Property<string>("Gender")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
 
                     b.Property<decimal>("Gross")
                         .HasColumnType("decimal(10,2)");
@@ -210,11 +211,11 @@ namespace HRSystembackend.Migrations
 
                     b.HasKey("EmpID");
 
-                    b.HasIndex("ComID");
+                    b.HasIndex("CompanyComID");
 
-                    b.HasIndex("DeptID");
+                    b.HasIndex("DepartmentDeptID");
 
-                    b.HasIndex("DesigID");
+                    b.HasIndex("DesignationDesigID");
 
                     b.HasIndex("ShiftID");
 
@@ -259,9 +260,6 @@ namespace HRSystembackend.Migrations
                     b.Property<decimal>("PayableAmount")
                         .HasColumnType("decimal(10,2)");
 
-                    b.Property<int>("SalaryID")
-                        .HasColumnType("integer");
-
                     b.HasKey("ComID", "EmpID", "DtYear", "DtMonth");
 
                     b.HasIndex("EmpID");
@@ -269,7 +267,7 @@ namespace HRSystembackend.Migrations
                     b.ToTable("Salaries");
                 });
 
-            modelBuilder.Entity("HRSystemBackend.Models.Shift", b =>
+            modelBuilder.Entity("Shift", b =>
                 {
                     b.Property<int>("ShiftID")
                         .ValueGeneratedOnAdd()
@@ -364,23 +362,23 @@ namespace HRSystembackend.Migrations
                 {
                     b.HasOne("HRSystemBackend.Models.Company", "Company")
                         .WithMany()
-                        .HasForeignKey("ComID")
+                        .HasForeignKey("CompanyComID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("HRSystemBackend.Models.Department", "Department")
                         .WithMany("Employees")
-                        .HasForeignKey("DeptID")
+                        .HasForeignKey("DepartmentDeptID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("HRSystemBackend.Models.Designation", "Designation")
                         .WithMany()
-                        .HasForeignKey("DesigID")
+                        .HasForeignKey("DesignationDesigID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HRSystemBackend.Models.Shift", "Shift")
+                    b.HasOne("Shift", "Shift")
                         .WithMany()
                         .HasForeignKey("ShiftID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -414,7 +412,7 @@ namespace HRSystembackend.Migrations
                     b.Navigation("Employee");
                 });
 
-            modelBuilder.Entity("HRSystemBackend.Models.Shift", b =>
+            modelBuilder.Entity("Shift", b =>
                 {
                     b.HasOne("HRSystemBackend.Models.Company", "Company")
                         .WithMany()

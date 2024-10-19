@@ -61,6 +61,26 @@ namespace HRSystemBackend.Controllers
             return Ok("Monthly salary calculated successfully");
         }
 
+        [HttpPost("pay-salary")]
+        public async Task<IActionResult> PaySalary(int comId, int empId, int year, int month)
+        {
+            var salary = await _context.Salaries
+                .FirstOrDefaultAsync(s =>
+                    s.ComID == comId &&
+                    s.EmpID == empId &&
+                    s.DtYear == year &&
+                    s.DtMonth == month);
+
+            if (salary == null) return NotFound("Salary record not found.");
+
+            salary.IsPaid = true;
+            salary.PaidAmount = salary.PayableAmount;
+
+            await _context.SaveChangesAsync();
+            return Ok("Salary paid successfully.");
+        }
+
+
         [HttpGet("department-summary")]
         public async Task<IActionResult> GetDepartmentSalarySummary(int comId, int year, int month)
         {

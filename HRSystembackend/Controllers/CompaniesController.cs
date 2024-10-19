@@ -35,8 +35,10 @@ namespace HRSystemBackend.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateCompany(Company company)
         {
+            // ComID will be automatically generated, so ensure it's not manually set
             _context.Companies.Add(company);
             await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetCompany), new { id = company.ComID }, company);
         }
 

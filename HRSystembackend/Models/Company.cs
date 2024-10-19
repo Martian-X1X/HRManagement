@@ -6,6 +6,7 @@ namespace HRSystemBackend.Models
     public class Company
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ComID { get; set; }
         public string ComName { get; set; }
         [Column(TypeName = "decimal(10,2)")]

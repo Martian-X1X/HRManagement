@@ -40,9 +40,27 @@ namespace HRSystemBackend.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateDepartment(Department department)
         {
-            _context.Departments.Add(department);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetDepartment), new { id = department.DeptID }, department);
+            // Validate if the Company ID exists before creating the department
+            if (!_context.Companies.Any(c => c.ComID == department.ComID))
+            {
+                return BadRequest("Invalid Company ID");
+            }
+
+            // Optionally fetch the company details if needed
+            department.Company = await _context.Companies.FindAsync(department.ComID);
+
+            try
+            {
+                // Add the department without any employees
+                _context.Departments.Add(department);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction(nameof(GetDepartment), new { id = department.DeptID }, department);
+            }
+            catch (DbUpdateException ex)
+            {
+                // Log the exception details here if needed
+                return StatusCode(500, "An error occurred while creating the department.");
+            }
         }
 
         [HttpPut("{id}")]

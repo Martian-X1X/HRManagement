@@ -21,14 +21,21 @@ namespace HRSystemBackend.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configure composite keys
+
+            // Configure composite keys for Salary
             modelBuilder.Entity<Salary>()
                 .HasKey(s => new { s.ComID, s.EmpID, s.DtYear, s.DtMonth });
 
+            // Configure composite keys for AttendanceSummary
             modelBuilder.Entity<AttendanceSummary>()
                 .HasKey(a => new { a.ComID, a.EmpID, a.DtYear, a.DtMonth });
 
+            // Configure composite keys for Attendance
+            modelBuilder.Entity<Attendance>()
+                .HasKey(a => new { a.ComID, a.EmpID, a.DtDate });
+
             // Add any additional configurations here
         }
+
     }
 }

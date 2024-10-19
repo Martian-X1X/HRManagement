@@ -316,7 +316,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HRSystemBackend.Controllers.DesignationsController",
+    "ContainingType": "DesignationsController",
     "Method": "GetDesignations",
     "RelativePath": "api/Designations",
     "HttpMethod": "GET",
@@ -332,7 +332,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HRSystemBackend.Controllers.DesignationsController",
+    "ContainingType": "DesignationsController",
     "Method": "CreateDesignation",
     "RelativePath": "api/Designations",
     "HttpMethod": "POST",
@@ -348,7 +348,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HRSystemBackend.Controllers.DesignationsController",
+    "ContainingType": "DesignationsController",
     "Method": "GetDesignation",
     "RelativePath": "api/Designations/{id}",
     "HttpMethod": "GET",
@@ -364,7 +364,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HRSystemBackend.Controllers.DesignationsController",
+    "ContainingType": "DesignationsController",
     "Method": "UpdateDesignation",
     "RelativePath": "api/Designations/{id}",
     "HttpMethod": "PUT",
@@ -385,7 +385,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HRSystemBackend.Controllers.DesignationsController",
+    "ContainingType": "DesignationsController",
     "Method": "GetDesignationEmployeeCount",
     "RelativePath": "api/Designations/employee-count",
     "HttpMethod": "GET",
@@ -419,9 +419,49 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "HRSystemBackend.Models.Employee",
-        "IsRequired": true
+        "Name": "ComID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShiftID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DeptID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DesigID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmpCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmpName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gross",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "DtJoin",
+        "Type": "System.DateTime",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -438,6 +478,67 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRSystemBackend.Controllers.EmployeesController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/Employees/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ComID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShiftID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DeptID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DesigID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmpCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmpName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gross",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "DtJoin",
+        "Type": "System.DateTime",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -506,6 +607,37 @@
   },
   {
     "ContainingType": "HRSystemBackend.Controllers.SalariesController",
+    "Method": "PaySalary",
+    "RelativePath": "api/Salaries/pay-salary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRSystemBackend.Controllers.SalariesController",
     "Method": "GetUnpaidSalaries",
     "RelativePath": "api/Salaries/unpaid-list",
     "HttpMethod": "GET",
@@ -556,7 +688,7 @@
     "Parameters": [
       {
         "Name": "shift",
-        "Type": "HRSystemBackend.Models.Shift",
+        "Type": "Shift",
         "IsRequired": true
       }
     ],
@@ -573,27 +705,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HRSystemBackend.Controllers.ShiftsController",
-    "Method": "UpdateShift",
-    "RelativePath": "api/Shifts/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "shift",
-        "Type": "HRSystemBackend.Models.Shift",
         "IsRequired": true
       }
     ],

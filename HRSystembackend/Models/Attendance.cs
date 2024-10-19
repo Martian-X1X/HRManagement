@@ -1,5 +1,4 @@
-﻿// Models/Attendance.cs
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -7,8 +6,6 @@ namespace HRSystemBackend.Models
 {
     public class Attendance
     {
-        [Key]
-        public int AttendanceID { get; set; }
         public int ComID { get; set; }
         public int EmpID { get; set; }
         public DateTime DtDate { get; set; }
@@ -18,6 +15,7 @@ namespace HRSystemBackend.Models
 
         [ForeignKey("ComID")]
         public Company Company { get; set; }
+
         [ForeignKey("EmpID")]
         public Employee Employee { get; set; }
     }

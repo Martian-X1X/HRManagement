@@ -1,5 +1,4 @@
-﻿// Models/Salary.cs
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -7,12 +6,11 @@ namespace HRSystemBackend.Models
 {
     public class Salary
     {
-        [Key]
-        public int SalaryID { get; set; }
         public int ComID { get; set; }
         public int EmpID { get; set; }
         public int DtYear { get; set; }
         public int DtMonth { get; set; }
+
         [Column(TypeName = "decimal(10,2)")]
         public decimal Gross { get; set; }
         [Column(TypeName = "decimal(10,2)")]

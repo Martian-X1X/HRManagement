@@ -40,19 +40,29 @@ namespace HRSystemBackend.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateShift(Shift shift)
         {
-            _context.Shifts.Add(shift);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetShift), new { id = shift.ShiftID }, shift);
+            // Check if the Company ID exists
+            if (!_context.Companies.Any(c => c.ComID == shift.ComID))
+            {
+                return BadRequest("Invalid Company ID");
+            }
+
+            shift.Company = await _context.Companies.FindAsync(shift.ComID);
+
+            try
+            {
+                _context.Shifts.Add(shift);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction(nameof(GetShift), new { id = shift.ShiftID }, shift);
+            }
+            catch (DbUpdateException ex)
+            {
+                // Log the exception details here
+                return StatusCode(500, "An error occurred while creating the Shift.");
+            }
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateShift(int id, Shift shift)
-        {
-            if (id != shift.ShiftID) return BadRequest();
-            _context.Entry(shift).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-            return NoContent();
-        }
+
+
 
         [HttpGet("{id}/employees")]
         public async Task<IActionResult> GetShiftEmployees(int id)

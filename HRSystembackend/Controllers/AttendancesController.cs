@@ -25,6 +25,7 @@ namespace HRSystemBackend.Controllers
             var shift = await _context.Shifts.FindAsync(attendance.Employee.ShiftID);
             if (shift == null) return BadRequest("Invalid Shift");
 
+            // Check if the employee is late
             if (attendance.InTime > shift.ShiftIn.Add(shift.ShiftLate))
             {
                 attendance.AttStatus = "Late";
@@ -34,6 +35,12 @@ namespace HRSystemBackend.Controllers
                 attendance.AttStatus = "Present";
             }
 
+            // Set default OutTime if it isn't provided
+            if (attendance.OutTime == TimeSpan.Zero)
+            {
+                attendance.OutTime = shift.ShiftOut;
+            }
+
             _context.Attendances.Add(attendance);
             await _context.SaveChangesAsync();
 
@@ -41,6 +48,7 @@ namespace HRSystemBackend.Controllers
 
             return Ok(attendance);
         }
+
 
         private async Task UpdateAttendanceSummary(Attendance attendance)
         {
